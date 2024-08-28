@@ -1,5 +1,5 @@
 # MY Activites 👇
 
-[![IMAGE ALT TEXT HERE](https://github.com/bacdillon/activities...../blob/main/img/project%20galleryjpg](https://bacdillon.github.io/activities...../)]
+[![IMAGE ALT TEXT HERE](img/project gallery.jpg](https://bacdillon.github.io/activities...../)]
 
 
