@@ -1,4 +1,3 @@
-# MY Activites
-👇
+# MY Activites 👇
 ![alt_text](https://github.com/bacdillon/activities...../blob/main/img/project%20gallery.jpg)
 
