@@ -1,104 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
-    <title>Demo Coffee House</title>
-    <link rel="stylesheet" href="main-style.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Hyperlinks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* min-height: 100vh; */
+            }
 
-
-</head>
-
-<style>
-    .image-button {
-        width: 57px;
-        height: 57px;
-        /* background-image: url('images/DemoCoffeeHouse.png'); */
-        background-image: url('images/DemoCoffeeHouse.png');
-        background-size: cover;
-        border: none;
-        cursor: pointer;
-    }
-</style>
-
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h5>Demo Coffee House</h5>
-            </div>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a>Menu</a></li>
-                <li><a>Promotion</a></li>
-                <!-- <li><a>Reservation</a></li> -->
-            </ul>
-            <div class="bar">
-                <div class="bar-1"></div>
-                <div class="bar-2"></div>
-                <div class="bar-3"></div>
-            </div>
-        </nav>
-    </header>
-    <div class="banner">
-        <div class="wrapper">
-            <div class="content">
-                <h2>La Nonna</h2>
-                <p><b>A MODERN TRATTORIA</b></p>
-                <p><b>THAT SITS IN THE HEART OF HOLLAND VILLAGE</b></p>
-<!--                 <div class="btn">
-                    <a href="#">Learn More</a>
-                    <a href="#">Sign up</a>
-                </div>                   -->
-            </div>
-        </div>
-    </div>
-    
-
-  <!-- Chatbot -->
-  <div class="chatbot-icon">
-    <!-- <button class="image-button" onclick="myFunction()"><img src="images/demo_coffee_house.png" id="chatbot-icon-image"></button> -->
-    <button class="image-button" onclick="myFunction()"></button>
-
-</div>
-  
-    <script>
-    function myFunction() {
-      window.open("winniebot.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
-    }
-    </script>
-  
-  
-   <!-- Chatbot Icon -->
- <!--   <div class="chatbot-icon">
-    <img src="./images/demo_coffee_house.png" alt="Chatbot Icon" id="chatbot-icon-image">
-    <button onclick="myFunction()"><img src="images/demo_coffee_house.png"></button>
-
-</div>
-   -->
-  <!-- Chatbot Popup -->
-  <!-- <div class="chatbot-popup" id="chatbot-popup">
-    <h3>Chat with us!</h3>
-    <p>How can I help you today?</p>
-    <button onclick="closeChat()">Close</button>
-  </div> -->
-  
-  <!-- <script src="script.js"></script> -->
-
-
-    <script>
-        const X = () => {
-            const menu = document.querySelector('.bar');
-            const nav = document.querySelector('.menu');
-            
-            menu.addEventListener('click', () => {
-               menu.classList.toggle('bar-active');
-                nav.classList.toggle('nav-active');
-            });
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        X();
-    </script>
+
+        .gallery a {
+            display: block;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery a:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="https://bacdillon.github.io/demo-coffee-house/" target="_blank">
+            <img src="./img/01.jpg" alt="Image 1">
+        </a>
+        <a href="https://shaolin-club.com/" target="_blank">
+            <img src="./img/02.jpg" alt="Image 2">
+        </a>
+        <a href="https://example.com/page3" target="_blank">
+            <img src="./img/03.jpg" alt="Image 3">
+        </a>
+        <a href="https://example.com/page4" target="_blank">
+            <img src="./img/04.jpg" alt="Image 4">
+        </a>
+        <a href="https://example.com/page5" target="_blank">
+            <img src="./img/05.jpg" alt="Image 5">
+        </a>
+        <a href="https://www.messenger.com/t/197782400914611" target="_blank">
+            <img src="./img/06.jpg" alt="Image 6">
+        </a>
+        <a href="https://www.messenger.com/t/278801076156936" target="_blank">
+            <img src="./img/07.jpg" alt="Image 7">
+        </a>
+        <a href="https://www.messenger.com/t/525615247870469" target="_blank">
+            <img src="./img/08.jpg" alt="Image 8">
+        </a>
+    </div>
 </body>
 </html>
