@@ -1,2 +1,2 @@
 # PROJECTS
-[![IMAGE ALT TEXT HERE](https://github.com/bacdillon/MY-activities/blob/main/img/main%20page.jpg)](https://bacdillon.github.io/MY-activities/index.html)
+[![IMAGE ALT TEXT HERE](https://github.com/bacdillon/projects/blob/main/img/main%20page.jpg)](https://bacdillon.github.io/projectsindex.html)
