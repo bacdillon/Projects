@@ -1,5 +1,5 @@
-| **Project Name** | **Description** |
-| --- | --- |
+| **Project Name** | **Description** | **URL** | 
+| --- | --- | --- |
 | Digital IT Helpdesk Support | IT Helpdesk Ticket Assistant, helps users check the status of their IT helpdesk tickets  (Incidents) and provides information from knowledge articles on company policies and HR scenarios.| https://bacdillon.github.io/Digital-IT-Helpdesk-Support |
 | ServiceNow Incident Management Dashboard | This project involves developing an interactive incident management dashboard using Streamlit, Python, and the ServiceNow API. The dashboard provides real-time tracking, categorization, and analysis of IT incidents. Key Features: Real-time Data Integration: Fetches live incident records from ServiceNow via API. Incident Categorization: Displays incidents based on type, priority, department, and status. Interactive Visualizations: Charts and tables for quick insights into incident trends. User-Friendly Interface: Simple navigation for IT teams to monitor and resolve issues efficiently.|
 | Authentic and traditional German cuisine and beer restaurant | A chain of German restaurants located in Singapore, and has been serving authentic and traditional German cuisine & beer. Our digital friendly chatbot, a platform where built to change the way our restaurant to interact with our guests in real-time. |
